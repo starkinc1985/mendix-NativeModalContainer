@@ -1,7 +1,7 @@
 import { Modal, View } from "react-native";
 
 export function NativeModalContainer(props) {
-    const { modalVisible } = props;
+    const { modalVisible, contentMarginTop } = props;
 
     if (!modalVisible) {
         return null;
@@ -11,7 +11,8 @@ export function NativeModalContainer(props) {
 
     const style = {
         flexDirection: "row",
-        flex: 1
+        flex: 1,
+        marginTop: contentMarginTop || 0
     };
     return (
         <Modal

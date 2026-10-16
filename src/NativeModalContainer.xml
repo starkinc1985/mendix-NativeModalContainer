@@ -17,6 +17,10 @@
                 <caption>Content</caption>
                 <description></description>
             </property>
+            <property key="contentMarginTop" type="integer" defaultValue="0">
+                <caption>Content margin top</caption>
+                <description>Optional top margin (in points) for the modal content. Leave at 0 for full-page modals; set a value to leave the top of the screen visible behind the modal.</description>
+            </property>
         </propertyGroup>
     </properties>
 </widget>

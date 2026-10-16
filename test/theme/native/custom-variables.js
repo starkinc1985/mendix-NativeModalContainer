@@ -306,6 +306,29 @@ export const container = {
     }
 };
 //
+// Bottom sheet modal styles (NativeModalContainer content: transparent top spacer + bottom card)
+export const modalOverlay = {
+    container: {
+        flex: 1,
+        backgroundColor: "transparent",
+        flexDirection: "column",
+        justifyContent: "flex-end"
+    }
+};
+export const modalTopSpacer = {
+    container: {
+        flex: 4,
+        backgroundColor: "transparent"
+    }
+};
+export const modalDisclaimerCard = {
+    container: {
+        flex: 6,
+        overflow: "hidden",
+        backgroundColor: darkMode ? "#000000" : "#FFFFFF"
+    }
+};
+//
 // Accordion Styles
 export const accordion = {
     container: {
